@@ -1,0 +1,42 @@
+.navBar {
+	background-color: #0079C0;
+	border: 0px;
+	height: 50px;
+}
+
+.navBar__burger {
+	border: 0px #0079C0;
+	&:hover {
+		background-color: rgba(0, 121, 192, 0.9) !important;
+	}	
+	&:focus {
+		background-color: rgba(0, 121, 192, 0.9) !important;
+	}
+}
+
+.navBar--marginTop {
+	margin-top: 12px;
+}
+
+.navBar__links {
+	color: white !important;
+}
+
+.navNar__collapse {
+	background-color: rgba(0, 121, 192, 0.9);
+	border: 0px;
+	float: right;
+	width: 50%;
+	li {
+		text-align: center;
+	}
+}
+
+.navBar__links--right {
+	float: right;
+}
+
+.navBar__links--firstTabMargin {
+	margin-right: 40px;
+}
+
