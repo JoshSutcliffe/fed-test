@@ -17,7 +17,7 @@ gulp.task('connect', function () {
 
 // GULP-SASS
 gulp.task('styles', function() {
-    gulp.src('app/sass/*.scss')
+    gulp.src('app/sass/main.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(rename('main.min.css'))
         .pipe(minifyCSS())

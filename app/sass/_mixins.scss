@@ -1,0 +1,20 @@
+@mixin respond($media) {
+	@if $media == xs {
+		@media only screen and (max-width: 767px) { @content; }
+	}
+	@else if $media == sm {
+		@media only screen and (min-width: 768px) { @content; }
+	}
+	@else if $media == sm-only {
+		@media only screen and (min-width: 768px) and (max-width: 992px) { @content; }
+	}
+	@else if $media == md {
+		@media only screen and (min-width: 992px) { @content; }
+	}
+	@else if $media == md-only {
+		@media only screen and (min-width: 992px) and (max-width: 1200px) { @content; }
+	}
+	@else if $media == lg {
+		@media only screen and (min-width: 1200px) { @content; }
+	}	
+}

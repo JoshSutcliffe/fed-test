@@ -1,0 +1,27 @@
+.headerBar__pills {
+	@include respond(sm) {
+		float: right;
+	}
+	@include respond(md-only) {
+		margin-top: 14px;
+	}
+	@include respond(lg) {
+		margin-top: 22px;
+	}
+}
+
+.headerBar__logo {
+	@include respond(xs) {
+		max-width: 300px;
+	}
+}
+
+.headerBar__pills--a {
+	text-align: center;
+	@include respond(xs) {
+		float: none !important;
+	}
+	@include respond(sm-only) {
+		font-size: 11px;
+	}
+}
