@@ -1,10 +1,51 @@
 .banner {
+	@media screen and (max-width: 767px) {
+		height: 350px;
+	}
 	margin-top: 20px;
 	background-image: url("../assets/hero.png");
 	height: 500px;
-}
+	position: relative;
 
-.banner__text__hTags {
-	text-align: center;
+	.banner__text--hTagsFirst {
+		@media screen and (min-width: 768px) {
+			padding-top: 137.5px;
+		}	
+	}
+
+	.banner__text--hTags {
+		text-align: center;
+	}
+
+	.banner__form {
+		position: absolute;
+		bottom: 0px;
+		background-color: rgba(52, 52, 51, 0.75);
+		width: 100%;
+		@media screen and (max-width: 767px) {
+			padding: 10px 0px;
+		}
+		@media screen and (min-width: 768px) {
+			height: 120px;
+		}
+		.banner__form--input {
+			width: 100%;
+			margin: 3px 0px;
+			height: 26px;
+			border: 0px;
+		}
+
+		.banner__form--container {
+			@media screen and (min-width: 768px) {
+				padding-top: 44px;
+			}	
+		}
+
+		.banner__form--inputBtn {
+			background-color: #F12E58;
+			color: white;
+			border-radius: 5px;
+		}
+	}
 }
 
