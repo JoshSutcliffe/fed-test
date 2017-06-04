@@ -5,6 +5,9 @@
 	}
 
 	.jobSection__container {
+		@media screen and (min-width: 768px) and (max-width: 991px) {
+			margin-top: 27px;
+		}
 		@media screen and (min-width: 992px) {
 			margin-top: 75px;
 		}
@@ -33,7 +36,7 @@
 	}
 
 	.jobSection__jobImg {
-		border: 1px #DDDDDD;
+		border: 1px solid #DDDDDD;
 	}
 
 	.jobSection__jobImg--last {

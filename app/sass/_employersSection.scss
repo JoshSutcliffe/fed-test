@@ -1,3 +1,18 @@
 .employersSection {
 	margin: 30px 0px;
+
+	.employersSection__imgBlock {
+		padding-left: 15px;
+	}
+
+	.employersSection__img {
+		border: 1px solid #DDDDDD;
+		display: inline;
+		@media screen and (max-width: 767px) {
+			width: 49%;
+		}
+		@media screen and (min-width: 768px) {
+			max-width: 16.2%;
+		}
+	}
 }
