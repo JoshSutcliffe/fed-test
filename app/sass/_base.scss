@@ -1,5 +1,9 @@
-// colours
+// resets
+ul {
+	padding: 0px;
+}
 
+// colours
 .colBl {
 	color: #0079C0;
 }
@@ -14,4 +18,22 @@
 
 .colFtr {
 	color: #434243;
+}
+
+// default fonts
+.h1White {
+	
+}
+
+.h3White {
+	
+}
+
+.h2SubHeader {
+	font-weight: normal;
+	font-size: 17px;
+}
+
+.h2SubHeader__link {
+	margin-top: -28px;
 }

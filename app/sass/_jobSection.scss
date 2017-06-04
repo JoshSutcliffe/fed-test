@@ -1,0 +1,42 @@
+.jobSection {
+	background-color: #F0F0F0;
+	@media screen and (min-width: 768px) {
+		height: 440px;
+	}
+
+	.jobSection__container {
+		@media screen and (min-width: 992px) {
+			margin-top: 75px;
+		}
+	}
+	.jobSection__li {
+		list-style-type: none;
+		padding: 5px 0px;
+		@media screen and(min-width: 768px) and (max-width: 991px) {
+			padding: 12px 0px;
+		}
+	}
+
+	.jobSection__li--jobNum {
+		color: grey;
+	}
+
+	.jobSection__jobDesc {
+		margin: 0px;
+		@media screen and (min-width: 768px) and (max-width: 991px) {
+			font-size: 13px;
+		}
+	}
+
+	.jobSection__jobBblock {
+		margin-top: 10px;
+	}
+
+	.jobSection__jobImg {
+		border: 1px #DDDDDD;
+	}
+
+	.jobSection__jobImg--last {
+		margin-bottom: 10px;
+	}
+}

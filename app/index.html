@@ -58,7 +58,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-3">
-					<img class="center-block img-responsive headerBar__logo" src="assets/logo.png" alt="">
+					<img class="center-block img-responsive center-block headerBar__logo" src="assets/logo.png" alt="">
 				</div>
 				<div class="col-xs-12 col-sm-9">
 					<ul class="nav nav-pills headerBar__pills">
@@ -107,64 +107,80 @@
 		</div>
 	</section>
 
-	<section>
+	<section class="jobSection">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-8">
-					<h3>Browse jobs by sector</h3>
-					<a href="">View all ></a>
-					<div class="row">
-						<div class="col-xs-6">
-							<ul>
-								<li>Accountancy & Finance <span>41</span></li>
-								<li>Architecture, Building & Planning <span>71</span></li>
-								<li>Art & Design <span>59</span></li>
-								<li>Building & Construction <span>49</span></li>
-								<li>Business Management <span>247</span></li>
-								<li>Catering & Hospitality <span>14</span></li>
-								<li>Computers & IT <span>55</span></li>
-							</ul>
-						</div>
-						<div class="col-xs-6">
-							<ul>
-								<li>Education <span>193</span></li>
-								<li>Engineering <span>47</span></li>
-								<li>Media & Journalism <span>123</span></li>
-								<li>Retail & Wholesale <span>100</span></li>
-								<li>Sales <span>29</span></li>
-								<li>Sciences <span>79</span></li>
-								<li>Sports & Fitness <span>72</span></li>
-							</ul>
+			<div class="jobSection__container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-8">
+						<h2 class="h2SubHeader">Browse jobs by sector</h2>
+						<a href="" class="pull-right h2SubHeader__link">View all ></a>
+						<div class="row">
+							<div class="col-xs-6">
+								<ul>
+									<a href=""><li class="jobSection__li">Accountancy & Finance <span class="jobSection__li--jobNum">41</span></li></a>
+									<a href=""><li class="jobSection__li">Architecture, Building & Planning <span class="jobSection__li--jobNum">71</span></li></a>
+									<a href=""><li class="jobSection__li">Art & Design <span class="jobSection__li--jobNum">59</span></li></a>
+									<a href=""><li class="jobSection__li">Building & Construction <span class="jobSection__li--jobNum">49</span></li></a>
+									<a href=""><li class="jobSection__li">Business Management <span class="jobSection__li--jobNum">247</span></li></a>
+									<a href=""><li class="jobSection__li">Catering & Hospitality <span class="jobSection__li--jobNum">14</span></li></a>
+									<a href=""><li class="jobSection__li">Computers & IT <span class="jobSection__li--jobNum">55</span></li></a>
+								</ul>
+							</div>
+							<div class="col-xs-6">
+								<ul>
+									<a href=""><li class="jobSection__li">Education <span class="jobSection__li--jobNum">193</span></li></a>
+									<a href=""><li class="jobSection__li">Engineering <span class="jobSection__li--jobNum">47</span></li></a>
+									<a href=""><li class="jobSection__li">Media & Journalism <span class="jobSection__li--jobNum">123</span></li></a>
+									<a href=""><li class="jobSection__li">Retail & Wholesale <span class="jobSection__li--jobNum">100</span></li></a>
+									<a href=""><li class="jobSection__li">Sales <span class="jobSection__li--jobNum">29</span></li></a>
+									<a href=""><li class="jobSection__li">Sciences <span class="jobSection__li--jobNum">79</span></li></a>
+									<a href=""><li class="jobSection__li">Sports & Fitness <span class="jobSection__li--jobNum">72</span></li></a>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="col-xs-12 col-sm-4">
-					<h3>Featured Jobs</h3>
-					<a href="">View all jobs ></a>
-					<div class="row">
-						<div class="col-xs-12">
-							<div>
-								<img class="img-responsive" src="../assets/_jobs/microsoft.png" alt="">
-								<p>Business Systems Analyst</p>
-								<p>New York City</p>
-								<p>$30,000 - $40,000</p>
+					<div class="col-xs-12 col-sm-4">
+						<h2 class="h2SubHeader">Featured Jobs</h2>
+						<a href="" class="pull-right h2SubHeader__link">View all jobs ></a>
+						<div class="row">
+							<div class="jobSection__jobBblock">
+								<div class="col-xs-6">
+									<img class="img-responsive center-block jobSection__jobImg" src="../assets/_jobs/microsoft.png" alt="">
+								</div>
+								<div class="col-xs-6">
+									<a href="">Business Systems Analyst</a>
+									<p class="jobSection__jobDesc">New York City</p>
+									<p class="jobSection__jobDesc">$30,000 - $40,000</p>
+								</div>
 							</div>
-							<div>
-								<img class="img-responsive" src="../assets/_jobs/amex.png" alt="">
-								<p>Paralegal Positions</p>
-								<p>Newton, MA</p>
-								<p>Competitive salary</p>
+						</div>
+						<div class="row">
+							<div class="jobSection__jobBblock">
+								<div class="col-xs-6">
+									<img class="img-responsive center-block jobSection__jobImg" src="../assets/_jobs/amex.png" alt="">
+								</div>
+								<div class="col-xs-6">
+									<a href="">Paralegal Positions</a>
+									<p class="jobSection__jobDesc">Newton, MA</p>
+									<p class="jobSection__jobDesc">Competitive salary</p>
+								</div>
 							</div>
-							
-							<img class="img-responsive" src="../assets/_jobs/nasa.png" alt="">
-							<p>Operations Director</p>
-							<p>Cape Canaveral, FL</p>
-							<p>Up to $100,000</p>
+						</div>
+						<div class="row">
+							<div class="jobSection__jobBblock">
+								<div class="col-xs-6">
+									<img class="img-responsive center-block jobSection__jobImg jobSection__jobImg--last" src="../assets/_jobs/nasa.png" alt="">
+								</div>
+								<div class="col-xs-6">
+									<a href="">Operations Director</a>
+									<p class="jobSection__jobDesc">Cape Canaveral, FL</p>
+									<p class="jobSection__jobDesc">Up to $100,000</p>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-
+				</div>	
 			</div>
 		</div>
 	</section>	
@@ -173,17 +189,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-4">
-					<img class="img-responsive" src="../assets/_ctas/icon_email.svg" alt="">
+					<img class="img-responsive center-block" src="../assets/_ctas/icon_email.svg" alt="">
 					<h4>Get instant job alerts</h4>
 					<p>Personalised job recommendations sent straight to your email</p>
 				</div>
 				<div class="col-xs-4">
-					<img class="img-responsive" src="../assets/_ctas/icon_profile.svg" alt="">
+					<img class="img-responsive center-block" src="../assets/_ctas/icon_profile.svg" alt="">
 					<h4>Create an account for free</h4>
 					<p>Shortlist jobs, manage your job alerts and recieve special offers</p>
 				</div>
 				<div class="col-xs-4">
-					<img class="img-responsive" src="../assets/_ctas/icon_upload.svg" alt="">
+					<img class="img-responsive center-block" src="../assets/_ctas/icon_upload.svg" alt="">
 					<h4>Upload your resume</h4>
 					<p>Upload your resume so our employers can match your details to the best jobs</p>
 				</div>
@@ -204,26 +220,26 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-4">
 					<div class="col-xs-6">
-						<img class=img-responsive src="../assets/_employers/citi.png" alt="">
+						<img class=img-responsive center-block src="../assets/_employers/citi.png" alt="">
 					</div>
 					<div class="col-xs-6">
-						<img class=img-responsive src="../assets/_employers/agstar.png" alt="">
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-4">
-					<div class="col-xs-6">
-						<img class=img-responsive src="../assets/_employers/ford.png" alt="">
-					</div>
-					<div class="col-xs-6">
-						<img class=img-responsive src="../assets/_employers/ioxus.png" alt="">
+						<img class=img-responsive center-block src="../assets/_employers/agstar.png" alt="">
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4">
 					<div class="col-xs-6">
-						<img class=img-responsive src="../assets/_employers/nike.png" alt="">
+						<img class=img-responsive center-block src="../assets/_employers/ford.png" alt="">
 					</div>
 					<div class="col-xs-6">
-						<img class=img-responsive src="../assets/_employers/oracle.png" alt="">
+						<img class=img-responsive center-block src="../assets/_employers/ioxus.png" alt="">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="col-xs-6">
+						<img class=img-responsive center-block src="../assets/_employers/nike.png" alt="">
+					</div>
+					<div class="col-xs-6">
+						<img class=img-responsive center-block src="../assets/_employers/oracle.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -234,7 +250,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-4">
-					<img class="img-responsive" src="../assets/mpu.png" alt="">
+					<img class="img-responsive center-block" src="../assets/mpu.png" alt="">
 				</div>
 				<div class="col-xs-6 col-sm-4">
 					<h4>Careers advice</h4>
@@ -243,7 +259,7 @@
 					<a href="">View all articles ></a>
 				</div>
 				<div class="col-xs-12 col-sm-4">
-					<img class="img-responsive" src="../assets/_careers-advice/article1.png" alt="">
+					<img class="img-responsive center-block" src="../assets/_careers-advice/article1.png" alt="">
 				</div>
 				<div class="col-xs-12 col-sm-4">
 					<h5>An introduction into ecommerce and the mobile revolution</h5>
@@ -252,7 +268,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-4">
-					<img class="img-responsive" src="../assets/advertise-bg.png" alt="">
+					<img class="img-responsive center-block" src="../assets/advertise-bg.png" alt="">
 					<p>Advertise with us</p>
 					<ol>
 						<li>Post jobs and monitor your applications</li>
@@ -262,19 +278,19 @@
 					<button><a href="">Post a job</a></button>
 				</div>
 				<div class="col-xs-6 col-sm-2">
-					<img class="img-responsive" src="../assets/_careers-advice/article2.png" alt="">
+					<img class="img-responsive center-block" src="../assets/_careers-advice/article2.png" alt="">
 					<a href="">The pros and cons of taking a digital detox in the modern age</a>
 				</div>
 				<div class="col-xs-6 col-sm-2">
-					<img class="img-responsive" src="../assets/_careers-advice/article3.png" alt="">
+					<img class="img-responsive center-block" src="../assets/_careers-advice/article3.png" alt="">
 					<a href="">Why should your company value user experience research</a>
 				</div>
 				<div class="col-xs-6 col-sm-2">
-					<img class="img-responsive" src="../assets/_careers-advice/article4.png" alt="">
+					<img class="img-responsive center-block" src="../assets/_careers-advice/article4.png" alt="">
 					<a href="">We're in the age of big data. But it's what you do with it that matters</a>
 				</div>
 				<div class="col-xs-6 col-sm-2">
-					<img class="img-responsive" src="../assets/_careers-advice/article5.png" alt="">
+					<img class="img-responsive center-block" src="../assets/_careers-advice/article5.png" alt="">
 					<a href="">Industry focus: A look inside Invision's studio in California</a>
 				</div>
 			</div>
@@ -292,10 +308,10 @@
 					<div class="col-xs-6">
 						<h5>Download our new app</h5>
 						<p>Easily manage your job serach on the go with our iPhone app. Instant job notifications. Search, shortlist and apply.</p>
-						<a href=""><img class="img-responsive" src="../assets/app-store.jpeg" alt=""></a>
+						<a href=""><img class="img-responsive center-block" src="../assets/app-store.jpeg" alt=""></a>
 					</div>
 					<div class="col-xs-6">
-						<img class="img-responsive" src="../assets/mobile-app.png" alt="">
+						<img class="img-responsive center-block" src="../assets/mobile-app.png" alt="">
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4">
@@ -334,10 +350,10 @@
 					<p><span class="glyphicon glyphicon-copyright-mark"></span>2016. Powered by Madgex</p>
 				</div>
 				<div class="col-xs-6">
-					<img class="img-responsive" src="../assets/_social/facebook.svg" alt="">
-					<img class="img-responsive" src="../assets/_social/twitter.svg" alt="">
-					<img class="img-responsive" src="../assets/_social/googleplus.svg" alt="">
-					<img class="img-responsive" src="../assets/_social/linkedin.svg" alt="">
+					<img class="img-responsive center-block" src="../assets/_social/facebook.svg" alt="">
+					<img class="img-responsive center-block" src="../assets/_social/twitter.svg" alt="">
+					<img class="img-responsive center-block" src="../assets/_social/googleplus.svg" alt="">
+					<img class="img-responsive center-block" src="../assets/_social/linkedin.svg" alt="">
 				</div>
 			</div>
 		</div>
