@@ -1,5 +1,8 @@
 .jobSection {
 	background-color: #F0F0F0;
+	@media screen and (max-width: 767px) {
+		padding-bottom: 20px;
+	}
 	@media screen and (min-width: 768px) {
 		height: 440px;
 	}

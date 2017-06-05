@@ -1,0 +1,47 @@
+.ctaSection {
+	background-image: url("../assets/_ctas/cta-bg.png");
+	@media screen and (max-width: 767px) {
+		margin-top: 20px;
+	}
+	@media screen and (min-width: 768px) {
+		height: 360px;
+	}
+
+	.ctaSection__block {
+		position: relative;
+		background-color: rgba(52, 52, 52, 0.75);
+		color: white;
+		text-align: center;
+		margin: 7px 0px;
+		@media screen and (max-width: 767px) {
+			padding: 5px;
+		}
+		@media screen and (min-width: 768px) {
+			height: 240px;
+			padding: 15px;
+			margin-top: 70px;
+		}
+
+		.ctaSection__img {
+			@media screen and (min-width: 768px) and (max-width: 991px) {
+				margin-top: 20px;
+			}
+			@media screen and (min-width: 992px) {
+				margin-top: 30px;
+			}
+			@media screen and (min-width: 992px) {
+				margin-top: 35px;
+			}
+		}
+
+		h2 {
+			font-size: 25px;
+			@media screen and (max-width: 768px) {
+				font-size: 21px;
+			}
+			@media screen and (min-width: 992px) and (max-width: 1199px) {
+				font-size: 21px;
+			}
+		}
+	}
+}
